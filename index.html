@@ -1663,7 +1663,7 @@ const { useState, useMemo, useEffect } = React;
 function LangBar({ lang, setLang }) {
   return (
     <div className="lang-bar">
-      <div className="lb-left">Mattos Medical Group&nbsp;·&nbsp;<a href="tel:+18138712950">(813) 871-2950</a> <span className="lb-meta">· {lang === 'es' ? 'Herramienta interna del equipo' : 'Internal staff tool'}</span></div>
+      <div className="lb-left">Mattos Medical Group&nbsp;·&nbsp;<a href="tel:+18138712950">(813) 871-2950</a></div>
       <div className="lang-toggles">
         <button className={`lang-btn ${lang === 'es' ? 'active' : ''}`} onClick={() => setLang('es')}>ES</button>
         <button className={`lang-btn ${lang === 'en' ? 'active' : ''}`} onClick={() => setLang('en')}>EN</button>
